@@ -1,14 +1,16 @@
+/* eslint-disable no-console */
 
 
-const operations = require('./operations.js');
 const readline = require('readline');
+const operations = require('./operations.js');
 
 // Use readline to create command line interface
 const rl = readline.createInterface({
   input: process.stdin,
-  output: process.stdout
+  output: process.stdout,
 });
 
+// eslint-disable-next-line no-console
 console.log(`
 Calc.js
 Welcome to the Node.js Calculator app! 
